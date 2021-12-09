@@ -1,0 +1,153 @@
+.user {
+  flex: 4;
+  padding: 20px;
+}
+.userTitleContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.userAddBtn {
+  width: 80px;
+  border: none;
+  padding: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.userAddBtn:hover {
+  color: white;
+  background-color: #2d353c;
+}
+.userDisplayContainer {
+  display: flex;
+  margin-top: 20px;
+}
+
+.userDisplay {
+  flex: 1;
+  padding: 20px;
+  box-shadow: -16px -4px 31px -20px rgba(0, 0, 0, 0.56);
+  -webkit-box-shadow: -16px -4px 31px -20px rgba(0, 0, 0, 0.56);
+  -moz-box-shadow: -16px -4px 31px -20px rgba(0, 0, 0, 0.56);
+  background-color: #2d353c;
+}
+
+.userUpdate {
+  flex: 2;
+  padding: 20px;
+  box-shadow: -16px -4px 31px -20px rgba(0, 0, 0, 0.56);
+  -webkit-box-shadow: -16px -4px 31px -20px rgba(0, 0, 0, 0.56);
+  -moz-box-shadow: -16px -4px 31px -20px rgba(0, 0, 0, 0.56);
+  background-color: #2d353c;
+  margin-left: 20px;
+}
+.userDisplayTop {
+  display: flex;
+  align-items: center;
+}
+.userImage {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 10px;
+}
+.userDisplayTopTitle {
+  display: flex;
+  flex-direction: column;
+}
+.userDisplayName {
+  font-weight: 600;
+  font-size: 16px;
+  color: antiquewhite;
+}
+.userDisplayRole {
+  color: grey;
+  font-weight: 300;
+}
+
+.userIcon {
+  margin-right: 10px;
+}
+.userDisplayBottom {
+  margin-top: 20px;
+}
+.userTitle {
+  font-size: 14px;
+  font-weight: 600;
+  color: black;
+}
+.userSubTitle {
+  font-size: 14px;
+  font-weight: 600;
+  color: antiquewhite;
+}
+.userDisplayInfo {
+  display: flex;
+  align-items: center;
+  margin: 20px 0px;
+  color: grey;
+}
+.userIcon {
+  font-size: 16px !important;
+}
+.userInfoTitle {
+  margin-left: 10px;
+}
+.userUpdateImage {
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+  object-fit: cover;
+  margin-right: 20px;
+}
+.userUpdateForm {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+}
+.userUpdateTitle {
+  font-size: 28px;
+  font-weight: 600;
+  color: antiquewhite;
+}
+.userUpdateItem {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+.userUpdateItem > label {
+  font-size: 15px;
+  margin-bottom: 5px;
+}
+.userUpdateInput {
+  width: 250px;
+  bottom: none;
+  border-bottom: 3px antiquewhite solid;
+  border-radius: 5px;
+  height: 30px;
+}
+.userUpdateUpload {
+  display: flex;
+  align-items: center;
+}
+.userUpdateRight {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.userFileIcon {
+  cursor: pointer;
+}
+.userUpdateButton {
+  border: none;
+  border-radius: 5px;
+  padding: 8px;
+  cursor: pointer;
+}
+.userUpdateButton:hover {
+  color: black;
+  background-color: antiquewhite;
+}

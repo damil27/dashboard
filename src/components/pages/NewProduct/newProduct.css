@@ -1,0 +1,50 @@
+.newProduct {
+  flex: 4;
+}
+
+.newProductForm {
+  display: flex;
+  flex-wrap: wrap;
+}
+.productFormItem {
+  display: flex;
+  width: 400px;
+  flex-direction: column;
+  margin-top: 10px;
+  margin-right: 20px;
+  margin-left: 10px;
+}
+
+.productFormItem > label {
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.productFormItem > input {
+  height: 20px;
+  padding: 10px;
+  border: 1px solid antiquewhite;
+  border-radius: 5px;
+}
+
+.newProductSelect {
+  height: 40px;
+  border-radius: 5px;
+}
+.productBtn {
+  margin-left: 30px;
+  margin-top: 40px;
+}
+.newProductButton {
+  width: 200px;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  padding: 7px 10px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.newProductButton:hover {
+  color: white;
+  background-color: #2d353c;
+}
